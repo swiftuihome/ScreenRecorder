@@ -1,9 +1,8 @@
 # Xcode
-.DS_Store
 */xcuserdata
 *.xccheckout
 *.moved-aside
-DerivedData
+DerivedData/
 *.hmap
 *.ipa
 *.xcuserstate
@@ -12,8 +11,6 @@ DerivedData
 # Swift Package Manager
 .build/
 Packages/
-*.xcodeproj
-.xcode/
 .swiftpm/
 
 # Build
@@ -23,10 +20,7 @@ build/
 *.dylib
 *.framework
 *.swiftmodule
-
-# Swift
 *.swiftdoc
-*.swiftmodule
 *.swiftsourceinfo
 
 # Playgrounds
@@ -35,7 +29,6 @@ playground.xcworkspace
 
 # CocoaPods
 Pods/
-Podfile.lock
 
 # Carthage
 Carthage/
@@ -47,10 +40,8 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 
-# AppCode
+# IDEs
 .idea/
-
-# VSCode
 .vscode/
 
 # Local Swift Package Configuration
@@ -70,9 +61,11 @@ fastlane/test_output
 Preview Devices/
 
 # macOS
-*.DS_Store
+.DS_Store
 .AppleDouble
 .LSOverride
+Icon?
+._*
 
 # Temporary files
 *.swp
@@ -83,20 +76,17 @@ Preview Devices/
 *.log
 *.trash
 
-# Local development environment files
+# Local environment files
 .env
 .env.local
 .env.*.local
-
-# Custom local files that should be ignored
 local.properties
 local.xcconfig
 
 # Documentation
 docs/_build/
-docs/.DS_Store
 
-# Test coverage reports
+# Test coverage
 *.profraw
 *.profdata
 coverage/
